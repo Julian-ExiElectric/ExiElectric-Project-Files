@@ -1,0 +1,1059 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "faa0a703-3af4-429e-bcd7-8c65ff499e0a")
+	(paper "A5")
+	(title_block
+		(title "Audio Jack PCB")
+		(date "2026-06-23")
+		(rev "A2")
+		(company "Exi-Electric")
+		(comment 1 "On behalf of Cedexis")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "CuteFox:LOGO"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" ""
+				(at 0 23.622 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LOGO"
+				(at 0 -23.622 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "ExiElectric_Silkscreen:CuteFox"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LOGO_0_0"
+				(polyline
+					(pts
+						(xy -10.763 -20.0027) (xy -10.7955 -19.9399) (xy -10.8766 -19.807) (xy -11.0208 -19.5801) (xy -11.2428 -19.235)
+						(xy -11.6913 -18.472) (xy -12.203 -17.4231) (xy -12.656 -16.2921) (xy -13.0318 -15.1261) (xy -13.312 -13.9723)
+						(xy -13.3476 -13.7753) (xy -13.4284 -13.1322) (xy -13.4828 -12.3833) (xy -13.5104 -11.5739) (xy -13.5108 -10.7492)
+						(xy -13.4839 -9.9545) (xy -13.4293 -9.235) (xy -13.3467 -8.636) (xy -13.0974 -7.5119) (xy -12.6132 -5.975)
+						(xy -11.979 -4.5092) (xy -11.1993 -3.1233) (xy -10.2788 -1.826) (xy -9.2219 -0.6262) (xy -9.0316 -0.4363)
+						(xy -8.3628 0.1798) (xy -7.5948 0.825) (xy -6.7688 1.4681) (xy -5.9262 2.0777) (xy -5.108 2.6226)
+						(xy -4.3555 3.0714) (xy -4.27 3.1183) (xy -3.119 3.6937) (xy -1.8855 4.2149) (xy -0.5964 4.6754)
+						(xy 0.7216 5.0686) (xy 2.0417 5.3881) (xy 3.3372 5.6272) (xy 4.5812 5.7796) (xy 5.7472 5.8385)
+						(xy 6.8081 5.7975) (xy 6.9102 5.7876) (xy 7.6028 5.7006) (xy 8.218 5.5884) (xy 8.725 5.4576) (xy 9.0934 5.3144)
+						(xy 9.1754 5.2691) (xy 9.4051 5.1304) (xy 9.725 4.929) (xy 10.1117 4.6804) (xy 10.5422 4.3999)
+						(xy 10.9931 4.1031) (xy 11.4411 3.8052) (xy 11.8629 3.5219) (xy 12.2354 3.2684) (xy 12.5352 3.0602)
+						(xy 12.7391 2.9127) (xy 12.8239 2.8414) (xy 12.8195 2.7177) (xy 12.7088 2.5495) (xy 12.6602 2.4948)
+						(xy 12.5463 2.2851) (xy 12.5866 2.0897) (xy 12.7846 1.8757) (xy 12.8278 1.8374) (xy 12.978 1.665)
+						(xy 13.0386 1.5261) (xy 13.0364 1.4894) (xy 12.96 1.242) (xy 12.7968 0.9366) (xy 12.5765 0.6227)
+						(xy 12.3289 0.3498) (xy 11.9803 0.0222) (xy 12.3613 0.2118) (xy 12.9194 0.5212) (xy 13.5703 0.968)
+						(xy 14.1403 1.4571) (xy 14.601 1.9635) (xy 14.924 2.4624) (xy 15.0244 2.6628) (xy 15.1506 2.9394)
+						(xy 15.1904 3.1185) (xy 15.1358 3.2358) (xy 14.9792 3.3269) (xy 14.7127 3.4273) (xy 14.1954 3.6276)
+						(xy 13.0252 4.1742) (xy 11.8613 4.8389) (xy 10.7498 5.5943) (xy 9.7365 6.4127) (xy 9.3699 6.7456)
+						(xy 9.0848 7.0359) (xy 8.8763 7.3071) (xy 8.7161 7.6035) (xy 8.5753 7.9696) (xy 8.4256 8.4497)
+						(xy 8.3679 8.6375) (xy 7.8963 9.8471) (xy 7.2781 10.9905) (xy 6.5261 12.0549) (xy 5.6534 13.0271)
+						(xy 4.6726 13.8942) (xy 3.5968 14.6432) (xy 2.4387 15.261) (xy 1.2112 15.7348) (xy 0.322 15.9763)
+						(xy -0.7083 16.1608) (xy -1.837 16.2664) (xy -2.8364 16.3244) (xy -3.3195 17.0099) (xy -3.4237 17.1531)
+						(xy -3.6722 17.4789) (xy -3.9946 17.8891) (xy -4.3688 18.3557) (xy -4.7723 18.8508) (xy -5.1829 19.3464)
+						(xy -5.4334 19.6467) (xy -5.9777 20.3046) (xy -6.4289 20.8601) (xy -6.8005 21.3307) (xy -7.1057 21.7339)
+						(xy -7.3581 22.0873) (xy -7.571 22.4084) (xy -7.7578 22.7147) (xy -7.7786 22.7498) (xy -7.9371 22.9977)
+						(xy -8.0668 23.1668) (xy -8.1414 23.2225) (xy -8.154 23.2161) (xy -8.2668 23.1054) (xy -8.4479 22.8832)
+						(xy -8.6785 22.5758) (xy -8.9398 22.2093) (xy -9.2131 21.8099) (xy -9.4796 21.4039) (xy -9.7206 21.0175)
+						(xy -9.9047 20.7034) (xy -10.5387 19.4642) (xy -11.0626 18.1742) (xy -11.4616 16.8733) (xy -11.5885 16.2514)
+						(xy -9.0036 16.2514) (xy -8.9875 16.9599) (xy -8.9522 17.5974) (xy -8.897 18.1187) (xy -8.8912 18.1574)
+						(xy -8.8241 18.5207) (xy -8.7296 18.9388) (xy -8.6182 19.375) (xy -8.5001 19.7925) (xy -8.3856 20.1544)
+						(xy -8.2852 20.4242) (xy -8.2091 20.565) (xy -8.1386 20.5297) (xy -7.9948 20.3658) (xy -7.7895 20.0907)
+						(xy -7.534 19.7224) (xy -7.2395 19.2792) (xy -6.9175 18.7789) (xy -6.5793 18.2397) (xy -6.2362 17.6796)
+						(xy -5.8994 17.1167) (xy -5.5804 16.5689) (xy -5.2905 16.0545) (xy -5.0409 15.5914) (xy -4.843 15.1977)
+						(xy -4.6344 14.7509) (xy -4.442 14.3029) (xy -4.3288 13.9732) (xy -4.2925 13.7451) (xy -4.3311 13.6021)
+						(xy -4.4424 13.5278) (xy -4.6242 13.5057) (xy -4.7635 13.4849) (xy -5.0722 13.3722) (xy -5.4438 13.1816)
+						(xy -5.8397 12.9359) (xy -6.2211 12.6579) (xy -6.5495 12.3703) (xy -6.5722 12.3478) (xy -6.8954 12.0016)
+						(xy -7.2304 11.6055) (xy -7.5082 11.2407) (xy -7.5872 11.1312) (xy -7.7806 10.8891) (xy -7.9328 10.7351)
+						(xy -8.0186 10.6965) (xy -8.0813 10.7877) (xy -8.1803 11.0187) (xy -8.2995 11.3542) (xy -8.4294 11.7624)
+						(xy -8.5601 12.211) (xy -8.682 12.668) (xy -8.7853 13.1014) (xy -8.8605 13.4792) (xy -8.881 13.6117)
+						(xy -8.9389 14.1521) (xy -8.9789 14.8023) (xy -9.0006 15.5171) (xy -9.0036 16.2514) (xy -11.5885 16.2514)
+						(xy -11.721 15.6018) (xy -11.7233 15.5865) (xy -11.7739 15.1435) (xy -11.8152 14.6013) (xy -11.8431 14.0271)
+						(xy -11.8534 13.4881) (xy -11.8534 12.2659) (xy -12.6964 11.5137) (xy -13.4347 10.8195) (xy -14.6523 9.4961)
+						(xy -15.7414 8.0694) (xy -15.787 7.9968) (xy 0.254 7.9968) (xy 0.2924 8.0301) (xy 0.466 8.0643)
+						(xy 0.7466 8.0827) (xy 1.0979 8.0859) (xy 1.4834 8.0745) (xy 1.8669 8.0492) (xy 2.212 8.0105)
+						(xy 2.4824 7.9591) (xy 3.0674 7.7566) (xy 3.6612 7.433) (xy 4.1539 7.0299) (xy 4.5132 6.5692)
+						(xy 4.5483 6.509) (xy 4.6197 6.3683) (xy 4.5963 6.3201) (xy 4.4709 6.3224) (xy 4.4534 6.3236)
+						(xy 4.2705 6.3341) (xy 3.9639 6.3498) (xy 3.5719 6.3689) (xy 3.1326 6.3895) (xy 2.8813 6.4016)
+						(xy 2.4698 6.4276) (xy 2.1697 6.4606) (xy 1.942 6.5076) (xy 1.7479 6.5754) (xy 1.5482 6.671) (xy 1.2261 6.8592)
+						(xy 0.84 7.1471) (xy 0.5319 7.4505) (xy 0.3278 7.7427) (xy 0.254 7.9968) (xy -15.787 7.9968) (xy -16.6973 6.549)
+						(xy -17.5154 4.9445) (xy -18.1911 3.2653) (xy -18.7198 1.5211) (xy -19.0967 -0.2785) (xy -19.3173 -2.1241)
+						(xy -19.3294 -2.2943) (xy -19.3652 -4.0845) (xy -19.2366 -5.8598) (xy -18.9483 -7.6102) (xy -18.5046 -9.3257)
+						(xy -17.9102 -10.9964) (xy -17.1695 -12.6124) (xy -16.287 -14.1635) (xy -15.2673 -15.64) (xy -14.1149 -17.0318)
+						(xy -12.8343 -18.329) (xy -11.43 -19.5216) (xy -11.268 -19.6469) (xy -11.0191 -19.8369) (xy -10.8426 -19.9686)
+						(xy -10.7689 -20.0191) (xy -10.7648 -20.0193) (xy -10.763 -20.0027)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.4603 -23.1307) (xy 1.2442 -23.0914) (xy 1.9159 -23.0261) (xy 3.0996 -22.8339) (xy 4.8285 -22.4142)
+						(xy 6.495 -21.8398) (xy 8.0918 -21.1142) (xy 9.6115 -20.2411) (xy 11.0466 -19.2237) (xy 12.3898 -18.0657)
+						(xy 13.1381 -17.3566) (xy 12.7908 -16.51) (xy 12.7442 -16.3978) (xy 12.3617 -15.5697) (xy 11.912 -14.7553)
+						(xy 11.3774 -13.9267) (xy 10.74 -13.0561) (xy 9.9822 -12.1156) (xy 9.5128 -11.5668) (xy 8.6678 -10.6387)
+						(xy 7.8517 -9.8195) (xy 7.0861 -9.1314) (xy 7.0572 -9.1072) (xy 6.8006 -8.8948) (xy 6.5635 -8.7059)
+						(xy 6.3225 -8.5243) (xy 6.0544 -8.334) (xy 5.7358 -8.1188) (xy 5.3434 -7.8625) (xy 4.8539 -7.549)
+						(xy 4.244 -7.1621) (xy 4.1238 -7.0856) (xy 3.4707 -6.6557) (xy 2.8432 -6.2201) (xy 2.2656 -5.7968)
+						(xy 1.762 -5.404) (xy 1.3565 -5.0599) (xy 1.0734 -4.7826) (xy 0.9201 -4.6012) (xy 0.5383 -3.9987)
+						(xy 0.319 -3.3641) (xy 0.2643 -2.7062) (xy 0.3767 -2.0341) (xy 0.3825 -2.0146) (xy 0.6106 -1.5355)
+						(xy 0.9926 -1.0676) (xy 1.5137 -0.626) (xy 2.159 -0.2256) (xy 2.8363 0.1358) (xy 1.4393 0.0943)
+						(xy 0.7328 0.0629) (xy -0.087 -0.0093) (xy -0.7436 -0.1157) (xy -1.3067 -0.2486) (xy -2.7312 -0.6996)
+						(xy -4.0764 -1.2935) (xy -5.3337 -2.0226) (xy -6.4944 -2.8792) (xy -7.55 -3.8556) (xy -8.4917 -4.9443)
+						(xy -9.311 -6.1376) (xy -9.9991 -7.4278) (xy -10.5475 -8.8072) (xy -10.654 -9.1394) (xy -11.0105 -10.5826)
+						(xy -11.2024 -12.0363) (xy -11.2311 -13.4888) (xy -11.0984 -14.9283) (xy -10.8056 -16.3433) (xy -10.3546 -17.722)
+						(xy -9.7467 -19.0528) (xy -8.9837 -20.3239) (xy -8.7692 -20.6392) (xy -8.5275 -20.9806) (xy -8.3187 -21.2365)
+						(xy -8.1108 -21.431) (xy -7.872 -21.588) (xy -7.5701 -21.7314) (xy -7.1733 -21.8853) (xy -6.6495 -22.0736)
+						(xy -5.8265 -22.3428) (xy -4.7975 -22.6249) (xy -3.7613 -22.8566) (xy -2.794 -23.0193) (xy -2.7095 -23.0302)
+						(xy -2.0208 -23.0939) (xy -1.2266 -23.1319) (xy -0.3814 -23.1442) (xy 0.4603 -23.1307)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.2794 14.3307) (xy 5.3122 14.5329) (xy 5.3447 14.8402) (xy 5.3726 15.2189) (xy 5.4257 16.0321)
+						(xy 5.4943 16.9033) (xy 5.5773 17.7781) (xy 5.6798 18.7109) (xy 5.8071 19.7561) (xy 5.8238 19.8895)
+						(xy 5.8846 20.3976) (xy 5.9335 20.8404) (xy 5.9677 21.1922) (xy 5.9848 21.4274) (xy 5.9822 21.5204)
+						(xy 5.9314 21.5211) (xy 5.7562 21.4484) (xy 5.4833 21.3001) (xy 5.1357 21.0911) (xy 4.7368 20.8363)
+						(xy 4.3095 20.5507) (xy 3.8773 20.2492) (xy 3.4631 19.9467) (xy 3.0903 19.6582) (xy 2.8324 19.4441)
+						(xy 2.0988 18.7666) (xy 1.3901 18.0187) (xy 0.7691 17.2651) (xy 0.3268 16.6808) (xy 0.8619 16.5733)
+						(xy 1.1068 16.5212) (xy 1.7086 16.3601) (xy 2.2874 16.1476) (xy 2.921 15.8565) (xy 2.9331 15.8505)
+						(xy 3.3033 15.6501) (xy 3.718 15.4) (xy 4.1386 15.1263) (xy 4.5263 14.855) (xy 4.8425 14.6121)
+						(xy 5.0484 14.4238) (xy 5.1548 14.3225) (xy 5.2532 14.2664) (xy 5.2794 14.3307)
+					)
+					(stroke
+						(width 0.01)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ExiElectric_connectors:MJ1-2503A"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.08 5.842 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "MJ1-2503A"
+				(at -5.08 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "ExiElectric_connectors:MJ1-2503A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" "file://C:\\Users\\julia\\Downloads\\mj1-2503a_datasheet.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "PARTREV" "1.05"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Same Sky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "ki_keywords" "Audio Jack"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MJ1-2503A_0_0"
+				(polyline
+					(pts
+						(xy -6.096 3.048) (xy -6.096 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.096 -1.778) (xy -4.064 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.048) (xy -6.096 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.048) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 3.048) (xy -5.08 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -1.778) (xy -4.064 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.54) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 0.3175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.3175) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 10.16 5.08 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 2.54 180)
+					(length 5.08)
+					(name ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(no_connect
+		(at 52.07 113.03)
+		(uuid "4aa72aa7-f09c-4827-ac35-f280060b8b98")
+	)
+	(symbol
+		(lib_id "ExiElectric_connectors:MJ1-2503A")
+		(at 41.91 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3ec19351-5c15-4f73-9aeb-1b6d70070a02")
+		(property "Reference" "J1"
+			(at 41.402 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MJ1-2503A"
+			(at 41.402 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ExiElectric_connectors:MJ1-2503A"
+			(at 41.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "file://C:\\Users\\julia\\Downloads\\mj1-2503a_datasheet.pdf"
+			(at 41.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PARTREV" "1.05"
+			(at 41.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 41.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.1mm"
+			(at 41.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Same Sky"
+			(at 41.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "2"
+			(uuid "0a52c9ba-ffd6-40b5-8336-1f8e0428892c")
+		)
+		(pin "3"
+			(uuid "711ee1a4-e0e6-4348-a5bb-11bbe9fa46fe")
+		)
+		(pin "1"
+			(uuid "887bb655-a987-4cc9-a169-47df53c36242")
+		)
+		(instances
+			(project "Cedexis - Audio Jack"
+				(path "/faa0a703-3af4-429e-bcd7-8c65ff499e0a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CuteFox:LOGO")
+		(at 173.99 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "49504952-b399-470d-b455-aa67f67f1793")
+		(property "Reference" "1"
+			(at 173.99 15.748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 173.99 62.992 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ExiElectric_Silkscreen:CuteFox"
+			(at 173.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "Cedexis - Audio Jack"
+				(path "/faa0a703-3af4-429e-bcd7-8c65ff499e0a"
+					(reference "1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 120.65 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5dad6f13-d65d-483c-bc77-a0c0de775574")
+		(property "Reference" "SP2"
+			(at 57.404 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.15 121.9199 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 52.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "686a3606-8f57-4163-affa-c9eede3e73cd")
+		)
+		(instances
+			(project "Cedexis - Audio Jack"
+				(path "/faa0a703-3af4-429e-bcd7-8c65ff499e0a"
+					(reference "SP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8da3724c-3c7a-4fc8-8d00-f4146707b470")
+		(property "Reference" "SP3"
+			(at 57.404 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.15 116.8399 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 52.07 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b82c87d9-2a8e-491e-bdbb-8334e2ea6fd4")
+		)
+		(instances
+			(project "Cedexis - Audio Jack"
+				(path "/faa0a703-3af4-429e-bcd7-8c65ff499e0a"
+					(reference "SP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
