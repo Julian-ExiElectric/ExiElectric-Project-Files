@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "ExiElectric_ICs") (type "KiCad") (uri "${COMPANY_LIBS}/footprints/ExiElectric_ICs.pretty") (options "") (descr ""))
+	(lib (name "ExiElectric_Modules") (type "KiCad") (uri "${COMPANY_LIBS}/footprints/ExiElectric_Modules.pretty") (options "") (descr ""))
+)
